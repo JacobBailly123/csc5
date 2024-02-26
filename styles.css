@@ -1,0 +1,97 @@
+
+/* Body styles */
+.body-class {
+    background-color: #f5f5f5; 
+}
+
+/* Header styles */
+.header-class {
+    background-color: #333; 
+    color: #fff; 
+}
+
+/* Navigation bar styles */
+.nav-class {
+    background-color: #4CAF50; 
+    color: #fff; 
+    padding: 10px; 
+}
+
+.nav-class a {
+    color: #fff;
+    text-decoration: none; 
+    margin-right: 10px; 
+}
+
+.nav-class a:hover {
+    font-weight: bold; 
+}
+
+/* Heading styles */
+.title-class,
+.section-title-class {
+    color: #1E90FF; 
+}
+
+/* Text styles */
+.text-class {
+    color: #555; 
+}
+
+/* Image styles */
+.image-class {
+    border: 2px solid #ccc; 
+}
+
+/* Form styles */
+.form-class {
+    margin-top: 20px;
+}
+
+.input-class,
+.button-class {
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+}
+
+.button-class {
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.button-class:hover {
+    background-color: #45a049; 
+}
+
+/* Footer styles */
+.footer-class {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .nav-class {
+        padding: 5px; 
+    }
+
+    .nav-class a {
+        margin-right: 5px; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjust styles for even smaller screens */
+    .nav-class {
+        padding: 3px; 
+    }
+
+    .nav-class a {
+        margin-right: 3px; 
+    }
+}
